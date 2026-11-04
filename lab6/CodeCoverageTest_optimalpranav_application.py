@@ -33,7 +33,7 @@ def test_high_excess_domestic():
 
 
 def test_high_excess_international():
-    assert baggage_fee("economy", 40, "international", False) == 2500
+    assert baggage_fee("economy", 40, "international", False) == 2500   
 
 
 def test_infant_two_items():
